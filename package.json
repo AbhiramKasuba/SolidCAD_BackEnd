@@ -1,0 +1,55 @@
+{
+  "name": "solidcad_be",
+  "version": "1.0.0",
+  "description": "Customer Enquiry application",
+  "main": "server.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "start": "node server.js",
+    "test": "mocha test --reporter mochawesome --reporter-options reportDir=reports/api,reportFilename=api"
+  },
+  "dependencies": {
+    "async": "^2.6.3",
+    "aws-sdk": "^2.968.0",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.18.3",
+    "chai": "^4.3.4",
+    "chai-http": "^4.3.0",
+    "compression": "^1.7.4",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.0",
+    "express": "~4.16.1",
+    "faker": "^5.5.3",
+    "global": "^4.4.0",
+    "helmet": "^5.1.0",
+    "http-errors": "~1.6.3",
+    "joi": "^17.4.0",
+    "jsonwebtoken": "^8.5.1",
+    "mailgen": "^2.0.15",
+    "mocha": "^9.2.2",
+    "mocha-junit-reporter": "^2.0.0",
+    "mochawesome": "^6.2.2",
+    "mongoose": "^5.12.7",
+    "morgan": "~1.9.1",
+    "node-fetch": "^2.6.1",
+    "nodemailer": "^6.6.3",
+    "nodemailer-html-to-text": "^3.2.0",
+    "swagger-ui-express": "^4.1.6",
+    "winston": "^3.8.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AbhiramKasuba/SolidCAD_BE.git"
+  },
+  "keywords": [
+    "SolidCAD_BE"
+  ],
+  "author": "Abhiram Bharadwaj Kasuba",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AbhiramKasuba/SolidCAD_BE/issues"
+  },
+  "homepage": "https://github.com/AbhiramKasuba/SolidCAD_BE#readme"
+}

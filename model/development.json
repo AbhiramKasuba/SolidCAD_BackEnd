@@ -1,0 +1,5 @@
+{
+    "mongodbUrl": "mongodb+srv://solidCAD_admin:lwFh5omom7mMoudU@cluster0.cexievc.mongodb.net/test?retryWrites=true",
+    "SMTP_USER": "ebf4bbfb47611f",
+    "SMTP_SECRET": "07332fe501ca09"
+}
